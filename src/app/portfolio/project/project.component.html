@@ -1,0 +1,9 @@
+	<div id="project-info">
+		<div class="imageBox" [style.background-image]="'url(' + project.imagePath + ')'">
+		
+		<h1>{{ project.name }}</h1>
+		</div>
+		<p>{{ project.description }}</p>
+		<a [href]="project.webLink" target="_blank" class="btn btn-light">View Project</a>
+		<a [href]="project.codeLink" target="_blank" class="btn btn-light">View Code</a>
+	</div>
