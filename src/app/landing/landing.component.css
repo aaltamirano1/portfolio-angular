@@ -13,8 +13,9 @@ h1{
 
 #skills-box{
 	display: flex;
+	flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 	opacity: .7;
 	border-radius: 10px;
 	padding: 0 6%;
@@ -27,6 +28,6 @@ img{
 
 @media only screen and (max-width: 600px) {
 	h1{ font-size: 40px; }   
-	#skills-box{ max-width: 98%; margin-top: 20px; padding: 0 4%; height: 100px; }
-	img{ -webkit-transform: scale(0.5); }
+	#skills-box{ max-width: 85%; margin-top: 20px; padding: 0 4%; align-content: center;}
+	img{ -webkit-transform: scale(0.5); margin-top: -20px;}
 }
